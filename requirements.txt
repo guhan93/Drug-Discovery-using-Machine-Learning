@@ -1,4 +1,3 @@
 pandas==1.1.3
-os
 pickle
 gunicorn==20.0.4
