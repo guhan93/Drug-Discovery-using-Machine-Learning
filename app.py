@@ -3,7 +3,8 @@ import pandas as pd
 from PIL import Image
 import subprocess
 import os
-import base58
+import pybase64
+import base64
 import pickle
 
 # Molecular descriptor calculator
