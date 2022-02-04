@@ -1,6 +1,3 @@
 pandas==1.1.3
-base58==2.0.1
-subprocess
-os
 pickle
 gunicorn==20.0.4
