@@ -4,4 +4,4 @@ subprocess
 os
 pickle
 gunicorn==20.0.4
-pip install upgrade-requirements
+upgrade-requirements
