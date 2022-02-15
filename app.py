@@ -1,4 +1,5 @@
 import pandas as pd
+pip install Pillow
 from PIL import Image
 import subprocess
 import os
