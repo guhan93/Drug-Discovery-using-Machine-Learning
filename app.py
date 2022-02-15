@@ -1,5 +1,5 @@
 import pandas as pd
-import Pillow as PIL
+import PIL
 from PIL import Image
 import subprocess
 import os
