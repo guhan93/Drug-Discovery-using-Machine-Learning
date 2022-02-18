@@ -37,7 +37,7 @@ def build_model(input_data):
     st.markdown(filedownload(df), unsafe_allow_html=True)
 
 # Logo image
-image = PIL.Image.open("C:/Users/Guhanesvar/Desktop/Drug-Discovery-using-Machine-Learning-main/logo.png","r")
+image = PIL.Image.open((),"r")
 
 st.image(image, use_column_width=True)
 
