@@ -26,7 +26,7 @@ def filedownload(df):
 # Model building
 def build_model(input_data):
     # Reads in saved regression model
-    load_model = pickle.load(open('acetylcholinesterase_model.pkl', 'rb'))
+    load_model = pickle.load(open('acetylcholinesterase_model.pkl','rb'))
     # Apply model to make predictions
     prediction = load_model.predict(input_data)
     st.header('**Prediction output**')
@@ -37,7 +37,7 @@ def build_model(input_data):
     st.markdown(filedownload(df), unsafe_allow_html=True)
 
 # Logo image
-image = Image.open('logo.png')
+image = PIL.Image.open("C:/Users/Guhanesvar/Desktop/Drug-Discovery-using-Machine-Learning-main/logo.png","r")
 
 st.image(image, use_column_width=True)
 
@@ -85,3 +85,4 @@ if st.sidebar.button('Predict'):
     build_model(desc_subset)
 else:
     st.info('Upload input data in the sidebar to start!')
+
