@@ -82,6 +82,7 @@ if st.sidebar.button('Predict'):
 
     # Apply trained model to make prediction on query compounds
     build_model(desc_subset)
+    docker pull mcr.microsoft.com/windows/nanoserver:ltsc2022
 else:
     st.info('Upload input data in the sidebar to start!')
 
